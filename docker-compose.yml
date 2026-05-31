@@ -1,0 +1,5 @@
+services:
+  gitflow:
+    build: .
+    entrypoint: ["/app/gitflow"]
+    command: ["help"]
