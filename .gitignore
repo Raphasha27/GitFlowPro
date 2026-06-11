@@ -25,3 +25,18 @@ node_modules/
 scratch/
 protection.json
 dashboard.html
+
+# Security: auto-added entries
+.env.*
+!.env.example
+!.env.sample
+__pycache__/
+*.pyc
+desktop.ini
+dist/
+build/
+.venv/
+credentials.json
+serviceAccountKey.json
+*.pem
+*.key
